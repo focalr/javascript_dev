@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Respond to Click</title>
+    
+    </head>
+    
+    <body>
+
+        <p id="text">This is a paragraph!</p>
+        
+        <button id="myButton">change text</button>
+        
+<!--INTERNAL javascript uses the "SCRIPT" tags-->   
+<!--Uses "TYPE" attribute to describe javascript-->
+        
+        <script type="text/javascript">
+        
+            // single line comment
+           
+            /*
+            multi-line 
+            comment
+            */
+            document.getElementById("myButton").onclick = function(){
+                
+                document.getElementById("text").innerHTML = "Hello Randy!";
+            }
+            
+            
+        </script>
+    
+    </body>
+</html>
